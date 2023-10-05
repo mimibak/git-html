@@ -7,77 +7,88 @@
     <meta name="author" content="Mih-Yeong Bak">
     <meta name="description" content="Ein weiterer Lebenslauf">
     <title>CV - M.Bak</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <h1>Lebenslauf Mih-Yeong Bak</h1>
-        <p>Junior Frontend Web Developer</p>
+    <header class="hero">
         <nav>
-            <a href="profile">Profile</a>
-            <a href="experience">Experiences</a>
-            <a href="skills">Skills</a>
-            <a href="contact">Contact</a>
+            <a href="#profile">profile</a>
+            <a href="#experience">experiences</a>
+            <a href="#skills">skills</a>
+            <a href="#contact">contact</a>
         </nav>
+        <h1>Mih-Yeong Bak</h1>
+        <p class="job"><em>Junior Frontend Web Developer</em></p>
     </header>
     <main>
         <article id="profile">
             <h2>Profile</h2>
             <p>My name is Mih-Yeong and i'm 33 years old from Essen, NRW. Currently i'm participating at Coding
                 Bootcamps Europe to be an awesome <strong>Frontend Web Developer.</strong>
-                in 2019. Besides of being a participant, I'm also a tattooist who loves to give you some art under your
-                skin!</p>
+                Due to my studied i got some UI/UX skills as well.</p>
         </article>
         <article id="experience">
             <h2>Experience</h2>
         </article>
         <section>
-            <header>
+            <article>
                 <h3>Coding Bootcamps Europe</h3>
-                <p>August/2023 - <i>present</i></p>
-            </header>
-            <p>Teilnahme an der Weiterbildung zum Frontent Web Developer beim Coding Bootcamps Europe.</p>
+                <p class="timenplace">August/2023 - <i>present</i></p>
+                <p>Teilnahme an der Weiterbildung zum Frontent Web Developer beim Coding Bootcamps Europe.</p>
+            </article>
         </section>
         <section>
-            <header>
+            <article>
                 <h3>Shop Manager, Tattoostudio</h3>
-                <p>August/2021-August/2023 - Goatstudios Düsseldorf</p>
-            </header>
-            <p>Geschäftsführung eines Tattoostudios in Düsseldorf.<br>Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Esse, commodi quasi debitis, asperiores eveniet velit saepe explicabo quae ducimus
-                veniam culpa incidunt error fuga ipsa beatae, harum expedita. Sed, voluptatum!</p>
+                <p class="timenplace">August/2021-August/2023 - Düsseldorf</p>
+                <p>Geschäftsführung eines Tattoostudios in Düsseldorf. Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Esse, commodi quasi debitis, asperiores eveniet velit saepe explicabo quae ducimus
+                    veniam culpa incidunt error fuga ipsa beatae, harum expedita. Sed, voluptatum!</p>
+            </article>
         </section>
         </section>
         <article id="skills">
             <h2>Skills</h2>
         </article>
         <section>
-            <h3>Soft skills</h3>
-            <ul>
-                <li>Creative thinking</li>
-                <li>Empathy</li>
-                <li>Team</li>
-            </ul>
+            <div class="container1">
+                <h3>Soft skills</h3>
+                <ul class="sskill">
+                    <li>Creative thinking</li>
+                    <li>Empathy</li>
+                    <li>Team</li>
+                </ul>
+            </div>
         </section>
         <section>
-            <h3>Technical skills</h3>
-            <ul>
-                <li>HTML and CSS</li>
-                <li>Adobe Creative Suite</li>
-                <li>Sketch and Figma</li>
-            </ul>
+            <div class="container2">
+                <h3>Technical skills</h3>
+                <ul class="sskill">
+                    <li>HTML and CSS</li>
+                    <li>Adobe Creative Suite</li>
+                    <li>Sketch and Figma</li>
+                </ul>
+            </div>
         </section>
         <article id="contact">
-            <h2>Contact</h2>
-            <ol>
-                <li>
-                    LinkedIn:
-                    <a href="https://www.linkedin.com/in/mih-yeong-bak-a252b4122/">@Mih-Yeong Bak</a>
-                </li>
-                <li>E-Mail:
-                    <a href="mailto:bak.mihyeong@gmail.com">bak.mihyeong@gmail.com</a>
-                </li>
-            </ol>
+            <section>
+                <h2>Contact</h2>
+                linkedin:
+                <a href="https://www.linkedin.com/in/mih-yeong-bak-a252b4122/" class="">hire me!</a><br>
+                e-mail:
+                <a href="mailto:bak.mihyeong@gmail.com">bak.mihyeong@gmail.com</a>
+            </section>
         </article>
 </body>
 
