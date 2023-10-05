@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  color: black;
+}
+
+header {
+  background-color: #5f9ea0;
+  padding: 20px;
+  border: 0px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  position: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  word-spacing: 3px;
+}
+
+a {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  font-variant: small-caps;
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-family: "Kanit", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+h3 {
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #fffafa;
+}
+
+article {
+  position: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.timenplace {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  padding: 0px;
+  border: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.job {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  border: 0px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-top: 0px;
+}
+
+.menue  {
+  margin-top: 50px;
+  font-family: "Lato", sans-serif;
+}
+
+.sskill {
+  display: inline-block;
+  text-align: left;
+}
+
+.container1 {
+  float: left;
+  width: 45%;
+  display: block;
+  text-align: center;
+}
+
+.container2 {
+  display: block;
+  text-align: center;
+}
+
+ul,
+ol {
+  font-family: "Lato", sans-serif;
+}
