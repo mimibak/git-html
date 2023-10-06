@@ -1,29 +1,75 @@
+/* General Styling*/
+
 * {
+  font-family: "Lato", sans-serif;
   box-sizing: border-box;
   margin: 0px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Kanit", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.nav-link {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin-bottom: 50px;
+  word-spacing: 3px;
+  padding: 4px 8px;
   color: black;
 }
 
+::selection {
+  background-color: white;
+  color: white;
+}
+
+.job::after {
+  content: "🥷";
+}
+
+body {
+  background-color: #fffafa;
+  max-width: auto;
+}
+
+/* Specific Stying*/
+
 header {
   background-color: #5f9ea0;
-  padding: 20px;
-  border: 0px;
+  padding: 48px 16px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 main {
-  margin-left: 10%;
-  margin-right: 10%;
+  max-width: 800px;
+  margin: 0px auto;
+  text-align: center;
 }
 
-nav {
-  font-family: "Lato", sans-serif;
-  font-weight: 600;
-  position: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  word-spacing: 3px;
+.nav-link:visited {
+  color: darkblue;
+}
+
+.nav-link:hover {
+  color: yellowgreen;
+}
+
+.nav-link:active {
+  color: paleturquoise;
 }
 
 a {
@@ -34,71 +80,43 @@ a {
   letter-spacing: 3px;
 }
 
-h1 {
-  font-family: "Kanit", sans-serif;
-  font-size: 50px;
+main > article {
   text-align: center;
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
+  padding: 10px;
+  border: none;
+  margin-bottom: 20px;
 }
 
-h2 {
-  font-family: "Kanit", sans-serif;
-  font-size: 40px;
-  text-align: center;
-  border: 0px;
-  padding: 0px;
-  margin: 0px;
+main > article:nth-child(2) {
+  border-top: 2px solid #5f9ea0;
 }
 
-h3 {
-  font-family: "Kanit", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
+main > article:nth-child(4) {
+  border-top: 2px solid #5f9ea0;
 }
 
-body {
-  background-color: #fffafa;
+main > article:last-child {
+  border-top: 2px solid #5f9ea0;
+  margin-top: 30px;
+  padding-top: 30px;
 }
 
-article {
-  position: center;
-  text-align: center;
-  padding: 20px;
+section + section {
+  padding-top: 40px;
 }
 
 .timenplace {
-  font-family: "Lato", sans-serif;
   font-size: 16px;
   text-align: center;
   font-weight: 500;
   padding: 0px;
   border: 0px;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
   margin-bottom: 20px;
-}
-
-p {
-  font-family: "Lato", sans-serif;
 }
 
 .job {
   font-family: "Lato", sans-serif;
   font-size: 25px;
-  border: 0px;
-  margin-top: 0px;
-  margin-bottom: 50px;
-  padding-top: 0px;
-}
-
-.menue  {
-  margin-top: 50px;
-  font-family: "Lato", sans-serif;
 }
 
 .sskill {
@@ -108,17 +126,11 @@ p {
 
 .container1 {
   float: left;
-  width: 45%;
+  width: 50%;
   display: block;
-  text-align: center;
+  padding: 0, 0, 0, 20px;
 }
 
 .container2 {
   display: block;
-  text-align: center;
-}
-
-ul,
-ol {
-  font-family: "Lato", sans-serif;
 }
