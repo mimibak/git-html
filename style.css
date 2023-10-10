@@ -34,7 +34,6 @@ h4 {
 }
 
 .nav-link {
-  font-family: "Lato", sans-serif;
   font-weight: 600;
   margin-bottom: 50px;
   word-spacing: 3px;
@@ -84,7 +83,6 @@ main {
 }
 
 a {
-  font-family: "Lato", sans-serif;
   font-weight: 600;
   font-size: 18px;
   font-variant: small-caps;
@@ -126,7 +124,6 @@ section + section {
 }
 
 .job {
-  font-family: "Lato", sans-serif;
   font-size: 25px;
 }
 
