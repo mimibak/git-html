@@ -35,7 +35,7 @@ h6 {
 
 ::selection {
   background-color: white;
-  color: darkblue;
+  color: purple;
 }
 
 .job::after {
@@ -49,7 +49,7 @@ body {
 /* Specific Stying*/
 
 .hero {
-  background-color: #5f9ea0;
+  background-image: linear-gradient(#1e3d3e, #5f9ea0, white);
   padding: 3.75rem 2.3rem;
   padding-top: 4rem;
   text-align: center;
@@ -226,5 +226,34 @@ section + section {
 }
 
 footer {
-  padding: 5rem;
+  font-family: "Kanit", sans-serif;
+  width: auto;
+  height: 300px;
+  background-image: linear-gradient(0deg, #1e3d3e, #5f9ea0, white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 3.75rem 2.3rem;
+  padding-top: 5rem;
+}
+
+.footer-text {
+  font-size: 1.5em;
+}
+
+.footer-contactme {
+  font-size: 1.1em;
+}
+
+.footer-contactme:visited {
+  color: darkblue;
+}
+
+.footer-contactme:hover {
+  color: yellowgreen;
+}
+
+.footer-contactme:active {
+  color: paleturquoise;
 }
