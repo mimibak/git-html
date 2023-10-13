@@ -38,8 +38,8 @@ h6 {
 }
 
 body {
-  --background-color: white;
-  --text-color: black;
+  --background-color: rgb(32, 32, 32);
+  --text-color: rgb(207, 206, 206);
   --accent-color: #5f9ea0;
   --accent-text-color: #1e3d3e;
   --nav-link-active-bg-color: paleturquoise;
@@ -54,20 +54,13 @@ body {
 
 @media screen and (prefers-color-scheme: dark) {
   body {
-    --background-color: rgb(32, 32, 32);
-    --text-color: rgb(207, 206, 206); 
+    --background-color: rgb(207, 206, 206);
+    --text-color: rgb(32, 32, 32);
+  }
 }
 
 ::selection {
   background-color: var(--accent-color);
-}
-
-a,
-a:link,
-a:hover,
-a:visited,
-a:active {
-  color: var(--text-color);
 }
 
 /* Specific Stying*/
@@ -92,7 +85,7 @@ a:active {
   top: 1.5em;
   padding: 1em;
   border-radius: 1em;
-  background-color: var(----hireme-button);
+  background-color: var(--hireme-button);
   color: var(--text-color);
 }
 
@@ -115,7 +108,7 @@ a:active {
 .navigation {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: centerb;
 }
 
 @media screen and (min-width: 768px) {
@@ -128,7 +121,21 @@ a:active {
 .nav-link {
   font-weight: 600;
   word-spacing: 0.5rem;
-  padding: 1rem 0.5rem;
+  padding: 0.1rem 0.3rem;
+  align-items: baseline;
+}
+
+a {
+  font-weight: 600;
+  font-size: 1rem;
+  font-variant: small-caps;
+  letter-spacing: 0.25rem;
+  transition: 0.6s ease-in-out;
+}
+
+.nav-link:focus {
+  outline-style: dashed;
+  outline-color: var(--accent-text-color);
 }
 
 main {
@@ -186,13 +193,6 @@ main {
 
 .nav-link:active {
   color: var(--nav-link-active-bg-color);
-}
-
-a {
-  font-weight: 600;
-  font-size: 1.2rem;
-  font-variant: small-caps;
-  letter-spacing: 0.25rem;
 }
 
 main > article {
@@ -254,8 +254,8 @@ section + section {
 
 footer {
   font-family: "Kanit", sans-serif;
-  width: auto;
-  height: 300px;
+  max-width: 100%;
+  height: auto;
   background-image: linear-gradient(
     0deg,
     var(--accent-text-color),
