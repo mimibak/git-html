@@ -165,7 +165,7 @@ main {
 }
 
 .article-heading {
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: left;
   margin-top: 0.5rem;
   position: relative;
@@ -232,6 +232,17 @@ section + section {
   padding-top: 2rem;
 }
 
+@media screen and (min-width: 768px) {
+  .article-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.content {
+  margin-top: 1em;
+}
+
 .aboutme {
   padding-top: 1.25rem;
 }
@@ -248,16 +259,6 @@ section + section {
 
 .sskill {
   display: inline-block;
-}
-
-.container1 {
-  float: left;
-  width: 45%;
-  display: block;
-}
-
-.container2 {
-  display: block;
 }
 
 footer {
